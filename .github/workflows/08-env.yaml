@@ -38,7 +38,7 @@ jobs:
           APP_NAME: "my-app-step"
           STEP_VAR2: "world"
         run: |
-          echo "APP_NAME: $STEP_VAR1"
+          echo "APP_NAME: $APP_NAME"
           echo "STEP_VAR2: $STEP_VAR2"
 
       # -------------------------
